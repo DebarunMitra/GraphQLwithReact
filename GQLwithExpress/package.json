@@ -1,0 +1,16 @@
+{
+  "name": "gqlwithexpress",
+  "version": "1.0.0",
+  "description": "create customer server using GraphQL and Express",
+  "main": "server.js",
+  "scripts": {
+    "dev:server": "nodemon server.js"
+  },
+  "author": "Debarun Mitra",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-graphql": "^0.9.0",
+    "nodemon": "^2.0.4"
+  }
+}
