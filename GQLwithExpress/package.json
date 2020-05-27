@@ -4,7 +4,8 @@
   "description": "create customer server using GraphQL and Express",
   "main": "server.js",
   "scripts": {
-    "dev:server": "nodemon server.js"
+    "dev:server": "nodemon server.js",
+    "json:server" : "json-server --watch ./data.json --port 4000"
   },
   "author": "Debarun Mitra",
   "license": "MIT",
